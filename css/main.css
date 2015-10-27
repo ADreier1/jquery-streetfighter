@@ -49,8 +49,8 @@ body {
   display: none;
   float: left;
   position: absolute;
-  top: 167px;
-  left: 520px;
+  top: 280px;
+  left: 541px;
   z-index: 10;
 }
 
@@ -59,3 +59,25 @@ body {
   outline: red 1px solid;
 }
 */
+
+.how-to {
+	display: none;
+	color: red;
+	font-family: comical;
+	font-size: 50px;
+	width: 600px;
+}
+
+.how-to p {
+	width: 50%;
+	color: black;
+	font-size: 24px;
+	line-height: 45px;
+	display: block;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.how-to p + p {
+	margin-left: 275px;
+}
